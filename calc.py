@@ -19,7 +19,7 @@ def calculate(a,b, operation):
                         return b
 	elif operation == 'modulus':
                 return a%b
-elif operation == 'boolean':
+	elif operation == 'boolean':
                 if (a < b):
                         return True
                 else:
@@ -30,3 +30,7 @@ elif operation == 'boolean':
                 else:
                         return ("Not Equal")
 
+	elif operation == 'append':
+		c = str(a) + str(b)
+		c = int(c)
+                return c
