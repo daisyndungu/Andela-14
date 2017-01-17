@@ -12,3 +12,10 @@ def calculate(a,b, operation):
 			return b
 		else:
 			return a
+	elif operation == 'smaller':
+                if (a < b):
+                        return a
+                else:
+                        return b
+	elif operation == 'modulus':
+                return a%b
