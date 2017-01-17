@@ -5,4 +5,10 @@ def calculate(a,b, operation):
 		return a - b
 	elif operation == 'multiply':
 		return a*b
-
+	elif operation == 'divide':
+        	return round(float(a/b),2)
+	elif operation == 'greater':
+		if (a < b):
+			return b
+		else:
+			return a
