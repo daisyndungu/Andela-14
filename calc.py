@@ -19,3 +19,14 @@ def calculate(a,b, operation):
                         return b
 	elif operation == 'modulus':
                 return a%b
+elif operation == 'boolean':
+                if (a < b):
+                        return True
+                else:
+                        return False
+	elif operation== 'equal':
+		if (a == b):
+                        return ("Equal")
+                else:
+                        return ("Not Equal")
+
